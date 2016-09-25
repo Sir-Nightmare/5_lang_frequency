@@ -20,8 +20,9 @@ def print_the_words(words_frequency):
     for key, value in words_frequency:
         print(key, value)
 
+
 if __name__ == '__main__':
     filepath = sys.argv[1]
     text = load_data(filepath)
-    words_frequency =get_most_frequent_words(text)
+    words_frequency = get_most_frequent_words(text)
     print_the_words(words_frequency)
