@@ -4,8 +4,8 @@ import sys
 
 
 def load_text_file(filepath):
-    with open(filepath, 'r', encoding="utf8") as file:
-        text_string = file.read()
+    with open(filepath, 'r', encoding="utf8") as input_file:
+        text_string = input_file.read()
     return text_string
 
 
