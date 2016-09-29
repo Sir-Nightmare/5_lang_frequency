@@ -23,5 +23,5 @@ def print_the_words(words_frequency):
 
 if __name__ == '__main__':
     filepath = sys.argv[1]
-    words_frequency = get_most_frequent_words(load_text_file(filepath))
-    print_the_words(words_frequency)
+    most_frequent_words = get_most_frequent_words(load_text_file(filepath))
+    print_the_words(most_frequent_words)
